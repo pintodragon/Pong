@@ -3,7 +3,7 @@ project(Pong)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(Pong main.cpp)
+add_executable(Pong src/main.cpp)
 
 target_compile_options(Pong PRIVATE -Wall)
 
