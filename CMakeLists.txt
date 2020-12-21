@@ -2,8 +2,9 @@ cmake_minimum_required(VERSION 3.17)
 project(Pong)
 
 set(CMAKE_CXX_STANDARD 17)
+set(OpenGL_GL_PREFERENCE GLVND)
 
-add_executable(Pong src/main.cpp src/Paddle.cpp src/Paddle.hpp src/Ball.cpp src/Ball.hpp)
+add_executable(Pong src/main.cpp src/Paddle.cpp src/Paddle.hpp src/Ball.cpp src/Ball.hpp src/Game.cpp src/Game.hpp)
 
 target_compile_options(Pong PRIVATE -Wall)
 
