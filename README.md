@@ -1,1 +1,1 @@
-git clone --recursive -j8 https://github.com/pintodragon/Pong.git
+git clone --recursive -j8 git@github.com:pintodragon/Pong.git
